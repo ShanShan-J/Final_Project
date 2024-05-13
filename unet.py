@@ -18,13 +18,13 @@ class Unet(object):
 
         "model_path"    : 'model_data/unet_vgg_voc.pth',
 
-        "num_classes"   : 3,
+        "num_classes"   : 21,
         #--------------------------------#
         #   backbone of the network can be ：vgg、resnet50
         #--------------------------------#
         "backbone"      : "vgg",
 
-        "input_shape"   : [256, 256],
+        "input_shape"   : [512, 512],
 
         "mix_type"      : 0,
 
